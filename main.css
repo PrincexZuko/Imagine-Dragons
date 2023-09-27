@@ -213,13 +213,13 @@ footer img {
 }
 
 .cart-item-title {
-    color: #333;
+    color: white;
     margin-left: .5em;
     font-size: 1.2em;
 }
 
 .cart-item-image {
-    width: 35px;
+    width: 75px;
     height: auto;
     border-radius: 10px;
 }
@@ -240,7 +240,7 @@ footer img {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid #fdfdfd;
     background-color: #eee;
     color: #333;
     padding: 0;
