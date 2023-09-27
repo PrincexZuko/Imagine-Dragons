@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagine Dragons Website</title>
     <meta name="description" content="This is the description">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=New+Rocker&family=Rubik+80s+Fade&family=Wallpoet&display=swap" rel="stylesheet">
+<link href="main.css" rel="stylesheet">
 </head>
 <body>
     <!--------------------------------HOMEPAGE🎸🎸---------------------------------------------->
@@ -12,100 +16,79 @@
     <h1>Imagine Dragons</h1>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About</li>
-            <li>Tours</li>
-            <li>Gallery</li>
-            <li>Contact</li>
+            <li><a href="#">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="#tours">Tours</a></li> <!-- Added anchor link to Tours section -->
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 </header>
 <img src="images/imaginedragons.jpg">
+<section class="welcome">
+    <h2>Welcome to the Imagine Dragons Website</h2>
+    <p>Explore the world of Imagine Dragons and discover their music, merchandise, and more!</p>
+</section>
+
+ <!--------------------------------GALLERY📸---------------------------------------------->
+ <section class="gallery">
+    <div class="column">
+        <img src="images/imaginedragons1.jpg">
+        <img src="images/imaginedragons2.jpg">
+        <img src="images/imaginedragons3.jpg">
+    </div>
+    <div class="column">
+        <img src="images/imaginedragons4.jpg">
+        <img src="images/imaginedragons5.jpg">
+        <img src="images/imaginedragons6.jpg">
+    </div>
+    <div class="column">
+        <img src="images/imaginedragons7.jpg">
+        <img src="images/imaginedragons8.jpg">
+        <img src="images/imaginedragons9.jpg">
+    </div>
+</section>
 
  <!--------------------------------TOUR🎸---------------------------------------------->
-<section>
-    <h2>Tours</h2>
+ <section class="content-section container">
+    <h2 class="section-header">TOURS</h2>
     <div>
-        <div>
-            <strong>OCT 17</strong> 
-            &lt;&gt;
-            <span>DETROIT, MI</span>
-            &lt;&gt;
-        <span>DTE ENERGY MUSIC THEATRE</span>
-        &lt;&gt;
-            <button type="button"> BUY TICKETS</button>
-            <hr>
+        <div class="tour-row">
+            <span class="tour-item tour-date">JUL 16</span>
+            <span class="tour-item tour-city">DETROIT, MI</span>
+            <span class="tour-item tour-arena">DTE ENERGY MUSIC THEATRE</span>
+            <button type="button" class="tour-item tour-btn btn btn-primary">BUY TICKETS</button>
         </div>
-        <div>
-            <strong>OCT 30</strong> 
-            &lt;&gt;
-            <span>TORONTO, ON</span>
-            &lt;&gt;
-        <span>SCOTIABANK ARENA</span>
-        &lt;&gt;
-            <button type="button"> BUY TICKETS</button>
-            <hr>
+        <div class="tour-row">
+            <span class="tour-item tour-date">JUL 19</span>
+            <span class="tour-item tour-city">TORONTO, ON</span>
+            <span class="tour-item tour-arena">BUDWEISER STAGE</span>
+            <button type="button" class="tour-item tour-btn btn btn-primary">BUY TICKETS</button>
         </div>
-        <div>
-            <strong>NOV 4</strong> 
-            &lt;&gt;
-            <span>INDIANAPLIS, IN</span>
-            &lt;&gt;
-        <span>LUCAS OIL STADIUM</span>
-        &lt;&gt;
-            <button type="button"> BUY TICKETS</button>
-            <hr>
+        <div class="tour-row">
+            <span class="tour-item tour-date">JUL 22</span>
+            <span class="tour-item tour-city">BRISTOW, VA</span>
+            <span class="tour-item tour-arena">JIGGY LUBE LIVE</span>
+            <button type="button" class="tour-item tour-btn btn btn-primary">BUY TICKETS</button>
         </div>
-        <div>
-            <strong>NOV 17</strong> 
-            &lt;&gt;
-            <span>OXFORD, MS</span>
-            &lt;&gt;
-        <span>VAUGHT-HEMINGWAY STADIUM</span>
-        &lt;&gt;
-            <button type="button"> BUY TICKETS</button>
-            <hr>
+        <div class="tour-row">
+            <span class="tour-item tour-date">JUL 29</span>
+            <span class="tour-item tour-city">PHOENIX, AZ</span>
+            <span class="tour-item tour-arena">AK-CHIN PAVILION</span>
+            <button type="button" class="tour-item tour-btn btn btn-primary">BUY TICKETS</button>
         </div>
-        <div>
-            <strong>NOV 25</strong> 
-            &lt;&gt;
-            <span>NASHVILLE, TN</span>
-            &lt;&gt;
-        <span>NISSAN STADIUM</span>
-        &lt;&gt;
-            <button type="button"> BUY TICKETS</button>
-            <hr>
+        <div class="tour-row">
+            <span class="tour-item tour-date">AUG 2</span>
+            <span class="tour-item tour-city">LAS VEGAS, NV</span>
+            <span class="tour-item tour-arena">T-MOBILE ARENA</span>
+            <button type="button" class="tour-item tour-btn btn btn-primary">BUY TICKETS</button>
         </div>
-        <div>
-            <strong>DEC 6</strong> 
-            &lt;&gt;
-            <span>MINNEAPOLIS, MN</span>
-            &lt;&gt;
-        <span>U.S.BANK STADIUM</span>
-        &lt;&gt;
-            <button type="button"> BUY TICKETS</button>
-            <hr>
-        </div>
-        <div>
-            <strong>DEC 20</strong> 
-            &lt;&gt;
-            <span>DENVER, CO</span>
-            &lt;&gt;
-        <span>EMPOWER FIELD AT MILE HIGH</span>
-        &lt;&gt;
-            <button type="button"> BUY TICKETS</button>
-            <hr>
-        </div>
-        <div>
-            <strong>DEC 30</strong> 
-            &lt;&gt;
-            <span>TAMPA, FL</span>
-            &lt;&gt;
-        <span>RAYMOND JAMES STADIUM</span>
-        &lt;&gt;
-            <button type="button"> BUY TICKETS</button>
-            <hr>
+        <div class="tour-row">
+            <span class="tour-item tour-date">AUG 7</span>
+            <span class="tour-item tour-city">CONCORD, CA</span>
+            <span class="tour-item tour-arena">CONCORD PAVILION</span>
+            <button type="button" class="tour-item tour-btn btn btn-primary">BUY TICKETS</button>
         </div>
     </div>
 </section>
